@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Terminal window frame -->
+  <rect 
+    x="36" y="36" 
+    width="440" height="440" 
+    rx="48" fill="#0a0a0a" stroke="#1f1f1f" stroke-width="28"/>
+  
+  <!-- Top title bar -->
+  <rect 
+    x="36" y="36" 
+    width="440" height="56" 
+    rx="24" fill="#151515"/>
+  
+  <!-- Window control dots (red/yellow/green) -->
+  <circle cx="68" cy="64" r="12" fill="#ff5f57"/>
+  <circle cx="108" cy="64" r="12" fill="#ffbc2e"/>
+  <circle cx="148" cy="64" r="12" fill="#28c840"/>
+  
+  <!-- Neon prompt >_ (centered, bold monospace) -->
+  <text 
+    x="92" y="292" 
+    font-family="'Courier New', Courier, monospace" 
+    font-size="148" 
+    font-weight="700" 
+    fill="#00ff9d" 
+    letter-spacing="-6px" 
+    text-anchor="start" 
+    dominant-baseline="middle">&gt;_</text>
+</svg>

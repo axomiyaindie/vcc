@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className={styles.top}>
         <NavLink to="/" className={styles.logo}>
           <span className={styles.logoIcon}>&gt;_</span>
-          <span className={styles.logoText}>cheatcode<span className={styles.logoAccent}>4u</span></span>
+          <span className={styles.logoText}>vibe<span className={styles.logoAccent}>cheatcode</span></span>
         </NavLink>
 
         <div className={styles.searchWrap}>

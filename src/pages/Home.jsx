@@ -34,8 +34,9 @@ export default function Home() {
       </div>
 
       <div className={styles.footer}>
-        <p>Built for developers — use the OS toggle in the nav to filter commands for your system.</p>
-      </div>
+  <p>Built for vibe developers — use the OS toggle to filter commands for your system.</p>
+  <p>Built with 😤 by <a href="https://github.com/rakibuilds" target="_blank" rel="noreferrer" style={{ color: 'var(--accent)', textDecoration: 'none' }}>Rakibul</a></p>
+</div>
     </div>
   )
 }
